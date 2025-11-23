@@ -1,0 +1,67 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Noto Sans TC", sans-serif;
+  text-align: center;
+  background: url("https://hackmd.io/_uploads/Hyc4usZlWe.png") no-repeat center center fixed;
+  background-size: cover;
+  /* 半透明背景效果 */
+  backdrop-filter: brightness(1.2) opacity(0.5);
+}
+
+.container {
+  background: rgba(255, 255, 255, 0.78);
+  padding: 40px;
+  max-width: 450px;
+  margin: 80px auto;
+  border-radius: 20px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.15);
+}
+
+h1 {
+  font-size: 28px;
+  margin-bottom: 25px;
+  color: #444;
+}
+
+.dog-icon {
+  font-size: 36px;
+  margin-right: 8px;
+}
+
+.input-section {
+  margin: 20px 0;
+  font-size: 18px;
+  color: #333;
+}
+
+input[type="date"] {
+  font-size: 16px;
+  padding: 8px 10px;
+  margin-left: 10px;
+  border-radius: 8px;
+  border: 1px solid #aaa;
+}
+
+button {
+  margin-top: 10px;
+  padding: 12px 25px;
+  font-size: 18px;
+  background-color: #ffb84d;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  color: #fff;
+  transition: 0.2s;
+}
+
+button:hover {
+  background-color: #ff9f00;
+}
+
+.result {
+  margin-top: 30px;
+  font-size: 20px;
+  line-height: 1.8;
+  color: #333;
+}
